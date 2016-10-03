@@ -1,0 +1,39 @@
+Date: Aug 8th 2011
+
+o.  URLs
+    http://en.wikipedia.org/wiki/OpenGL
+    http://www.opengl.org/wiki/Main_Page
+
+o.  To find out which version you have
+    available on your linux machine; you can look
+    at the gl.h file and look at GL_VERSION_*
+    macros to see which version it is.
+
+    > grep GL_VERSION /usr/include/GL/gl.h
+
+    #define GL_VERSION_1_1   1
+    #define GL_VERSION_1_2   1
+    #define GL_VERSION_1_3   1
+    #define GL_VERSION                              0x1F02
+    
+    
+o   OpenGL 2.0 contains GLSL (the OpenGL Shading Language)
+    Added support for a true, GPU-based assembly language
+    called ARB (designed by the Architecture Review Board).
+
+o   OpenGL 3.0 released July 2008 added support for frame
+    buffer objects, hardware instancing, vertex array objects, and
+    sRGB framebuffers.
+    
+
+o   OpenGL 4.2 released August 8th 2011
+    Support for shaders with atomic counters
+
+    Capturing GPU-tesselllated geometry and drawing multiple instances
+    of the result of a transform feedback to enable complex
+    objects to be efficiently repositioned and replicated.
+
+    Support for packing multiple 8 and 16 bit values into a single
+    32-bit value for efficient shader processing with significantly
+    reduced memory storage and bandwidth.
+
